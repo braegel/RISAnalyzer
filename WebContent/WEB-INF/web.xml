@@ -19,4 +19,14 @@
     <servlet-name>RISPatientDoubletServlet</servlet-name>
     <url-pattern>/RISPatientDoubletServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ModalityWorkload</display-name>
+    <servlet-name>ModalityWorkload</servlet-name>
+    <servlet-class>de.braegel.rispacs.ModalityWorkload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModalityWorkload</servlet-name>
+    <url-pattern>/ModalityWorkload</url-pattern>
+  </servlet-mapping>
 </web-app>
