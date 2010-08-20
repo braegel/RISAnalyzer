@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-size: 80%;
+	line-height: 1.4em;
+	padding: 10px;
+}
+
+h1,h2,h3,h4,h5,h6,ol,ul,li,dl,dt,dd,p,input,textarea,select,legend,fieldset,label{
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left; /* Alle Elemente linksbündig */
+	margin: 10px 0px 10px 0px;
+}
+
+h1{
+	border-bottom: 1px solid #333;
+	padding-bottom: 5px;
+	margin: 10px 0px 10px 0px;
+}
+
+h2{
+	margin: 40px 0px 10px 0px;
+}
+
+h3{
+	margin: 40px 0px 10px 0px;
+}
+
+form{
+	border: 1px solid #333;
+	padding: 10px;
+	width: auto;
+}
+
+a{
+	font-style:italic;
+}
