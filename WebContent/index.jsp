@@ -20,5 +20,6 @@
 	<input type="submit" value="Perform" />
 </form>
 <p>RISPatientDoubletServlet is a tool for retrieving RIS patient doublets with identic last-, firstname and date of birth.</p>
+<p>Use <a href="other/AutoITMerge.au3">this</a> AutoIT Script for semiautomatic merge of RIS patients using the Workflow Browser</p>
 </body>
 </html>

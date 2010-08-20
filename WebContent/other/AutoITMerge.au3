@@ -1,4 +1,4 @@
-;~ AutoITMerge.au3 is an AutoIT script for semiautomatic patientmerge using Siemens Syngo Workflow Browser sWF Software
+;~ AutoITMerge.au3 is an AutoIT script for semiautomatic patient merge using Siemens Syngo Workflow Browser sWF Software
 ;~ Author is bernd@braegelmann.de 20.08.2010 Düren, Germany
 
 
@@ -32,7 +32,7 @@ Func Terminate()
 EndFunc
 
 Func NextMerge()
-	Send("{ESC}")				SAK_116823					
+	Send("{ESC}")					
 	
 	Sleep(100)
 	Send("{ESC}")
