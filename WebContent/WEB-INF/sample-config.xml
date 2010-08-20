@@ -1,0 +1,7 @@
+<preferences>
+	<dbuser>username</dbuser>
+	<dbpassword>password</dbpassword>
+	<dbip>192.168.1.1</dbip>
+	<dbport>2055</dbport>
+	<dbname>pdir</dbname>
+</preferences>
