@@ -4,4 +4,5 @@
 	<dbip>192.168.1.1</dbip>
 	<dbport>2055</dbport>
 	<dbname>pdir</dbname>
+	<Imagegeneratortable>DUE_Geraete</Imagegeneratortable>
 </preferences>

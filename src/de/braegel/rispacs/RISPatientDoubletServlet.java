@@ -34,7 +34,6 @@ import javax.xml.stream.*;
 	 */
 	public RISPatientDoubletServlet() {
 		super();
-		 connections = 0;
 	}   	
 	
 	/* (non-Java-doc)
@@ -199,6 +198,7 @@ import javax.xml.stream.*;
 		out.println("</table>");
 		
 	}
+	
 	
 	@SuppressWarnings("unchecked")
 	public String getPreferences(String pref){
