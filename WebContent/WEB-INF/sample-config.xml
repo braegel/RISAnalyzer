@@ -5,4 +5,5 @@
 	<dbport>2055</dbport>
 	<dbname>pdir</dbname>
 	<Imagegeneratortable>DUE_Geraete</Imagegeneratortable>
+	<Examinationstreetable>Baum_Dueren_V1</Examinationstreetable>
 </preferences>

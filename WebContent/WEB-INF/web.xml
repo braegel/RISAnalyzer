@@ -21,12 +21,12 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>ImagegeneratorWorkload</display-name>
-    <servlet-name>ImagegeneratorWorkload</servlet-name>
-    <servlet-class>de.braegel.rispacs.ImagegeneratorWorkload</servlet-class>
+    <display-name>ImagegeneratorWorkloadServlet</display-name>
+    <servlet-name>ImagegeneratorWorkloadServlet</servlet-name>
+    <servlet-class>de.braegel.rispacs.ImagegeneratorWorkloadServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ImagegeneratorWorkload</servlet-name>
-    <url-pattern>/ImagegeneratorWorkload</url-pattern>
+    <servlet-name>ImagegeneratorWorkloadServlet</servlet-name>
+    <url-pattern>/ImagegeneratorWorkloadServlet</url-pattern>
   </servlet-mapping>
 </web-app>

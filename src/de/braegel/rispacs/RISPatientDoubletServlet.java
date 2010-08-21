@@ -86,7 +86,13 @@ import javax.xml.stream.*;
 		response.setContentType("text/html");
 	    PrintWriter out = response.getWriter();
 	    out.println("<html>");
-	    out.println("<head><title>RISPatientDoubletServlet</title></head>");
+	    out.println("<head>");
+	    out.println("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">");
+	    out.println("<style type=\"text/css\" media=\"screen\">");
+	    out.println("@import url(\"../style.css\");");
+	    out.println("</style>");
+	    out.println("<title>RISPatientDoubletServlet</title>");
+	    out.println("</head>");
 	    out.println("<body>");
 	    
 	    if (responsestyle != null && responsestyle.contentEquals("autoit")){

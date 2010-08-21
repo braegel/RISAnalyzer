@@ -16,7 +16,16 @@ public class Preferences {
 	private String dbport;
 	private String dbname;
 	private String imagegeneratortable;
+	private String examinationstreetable;
 	
+	public String getExaminationstreetable() {
+		return examinationstreetable;
+	}
+
+	public void setExaminationstreetable(String examinationstreetable) {
+		this.examinationstreetable = examinationstreetable;
+	}
+
 	public String getImagegeneratortable() {
 		return imagegeneratortable;
 	}
@@ -61,6 +70,9 @@ public class Preferences {
 		            	  } 
 		              if(parser.getLocalName().equals("Imagegeneratortable")){
 		            	  this.setImagegeneratortable(parser.getElementText());
+		            	  }
+		              if(parser.getLocalName().equals("Examinationstreetable")){
+		            	  this.setExaminationstreetable(parser.getElementText());
 		            	  } 
 	              break;      	        
 	            default: 

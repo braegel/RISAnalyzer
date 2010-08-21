@@ -14,7 +14,7 @@
 <h1>RISAnalyzer</h1>
 <p>This is RISAnalyzer by <a href="mailto:bernd@braegelmann.de">Bernd Brägelmann</a></p>
 <h2>ImagegeneratorWorkload</h2>
-<p>Link to <a href="/RISAnalyzer/ImagegeneratorWorkload">ModalityWorkload</a></p>
+<p>Link to <a href="/RISAnalyzer/ImagegeneratorWorkloadServlet">ImagegeneratorWorkloadServlet</a></p>
 
 <h2>RISPatientDoubletServlet</h2>
 <form action="/RISAnalyzer/RISPatientDoubletServlet">
